@@ -792,22 +792,22 @@ def sendCarousel(event):  #轉盤樣板
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                        thumbnail_image_url='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4NQBoplbhOoo3bc_Zgj37mraOw88ddrWP7LTZfpfnY7FcDr5m&usqp=CAU',
-                        title=' ',
-                        text='其他資訊',
+                        thumbnail_image_url= "https://i.imgur.com/bQVbKwb.jpg",
+                        title="7-11",
+                        text="點選服務",
                         actions=[
                             URITemplateAction(
-                                label='洗錢防制之最終受益人查詢',
-                                uri='https://reurl.cc/AqXVEe'
+                                label="官方網站",
+                                uri= "https://www.7-11.com.tw/"
                             ),
                             MessageTemplateAction(
-                                label='國際防制洗錢標準',
-                                text='1.處罰洗錢及資恐行為2.沒收不法所得及進行目標制裁3.國際合作4.建立防治機制'
+                                label= "商家查詢",
+                                text='"https://emap.pcsc.com.tw/"
                             ),
 		          
                              URITemplateAction(
-                                label='最新資訊',
-                                uri='https://www.amlo.moj.gov.tw/1461/1467/Lpsimplelist'
+                                label="股市查詢",
+                                uri="https://stock.pchome.com.tw/stock/sid2912.html"
                             ),
                             
                         ]
