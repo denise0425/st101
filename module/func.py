@@ -162,7 +162,7 @@ def sendCarousel3(event):  #轉盤樣板
                         actions=[
                             MessageTemplateAction(
                                 label='官方網站',
-                                text='https://www.7-11.com.tw/'
+                                uri='https://www.7-11.com.tw/'
                             ),
                             URITemplateAction(
                                 label='商家查詢',
