@@ -160,7 +160,7 @@ def sendCarousel3(event):  #轉盤樣板
                         title='7-11',
                         text='點選服務',
                         actions=[
-                            MessageTemplateAction(
+                            URITemplateAction(
                                 label='官方網站',
                                 uri='https://www.7-11.com.tw/'
                             ),
@@ -168,7 +168,7 @@ def sendCarousel3(event):  #轉盤樣板
                                 label='商家查詢',
                                 uri='https://emap.pcsc.com.tw/'
                             ),
-                            PostbackTemplateAction(
+                            URITemplateAction(
                                 label='股市查詢',
                                 uri='https://stock.pchome.com.tw/stock/sid2912.html'
                             ),
@@ -179,7 +179,7 @@ def sendCarousel3(event):  #轉盤樣板
                         title='全家 FamilyMart',
                         text='點選服務',
                         actions=[
-                            MessageTemplateAction(
+                            URITemplateAction(
                                 label='官方網站',
                                 uri='https://www.family.com.tw/Marketing/index.aspx'
                             ),
@@ -187,7 +187,7 @@ def sendCarousel3(event):  #轉盤樣板
                                 label='商家查詢',
                                 uri='https://www.family.com.tw/marketing/inquiry.aspx'
                             ),
-                            PostbackTemplateAction(
+                            URITemplateAction(
                                 label='股市查詢',
                                 uri='https://stock.pchome.com.tw/stock/sid5903.html'
                             ),
