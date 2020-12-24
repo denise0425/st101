@@ -792,22 +792,22 @@ def sendCarousel(event):  #轉盤樣板
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                        thumbnail_image_url= "https://i.imgur.com/bQVbKwb.jpg",
-                        title="7-11",
-                        text="點選服務",
+                        thumbnail_image_url= 'https://i.imgur.com/bQVbKwb.jpg',
+                        title='7-11',
+                        text='點選服務',
                         actions=[
                             URITemplateAction(
-                                label="官方網站",
-                                uri= "https://www.7-11.com.tw/"
+                                label='官方網站',
+                                uri= 'https://www.7-11.com.tw/'
                             ),
                             MessageTemplateAction(
-                                label= "商家查詢",
-                                text='"https://emap.pcsc.com.tw/"
+                                label= '商家查詢',
+                                text='https://emap.pcsc.com.tw/'
                             ),
 		          
                              URITemplateAction(
-                                label="股市查詢",
-                                uri="https://stock.pchome.com.tw/stock/sid2912.html"
+                                label='股市查詢',
+                                uri='https://stock.pchome.com.tw/stock/sid2912.html'
                             ),
                             
                         ]
